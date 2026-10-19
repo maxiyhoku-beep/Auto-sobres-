@@ -3,7 +3,6 @@ set -e
 export ANDROID_HOME=$HOME/android-sdk
 mkdir -p $ANDROID_HOME/cmdline-tools
 cd $ANDROID_HOME/cmdline-tools
-cat setup.sh
 curl -sSLo tools.zip [dl.google.com](https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip)
 unzip -q tools.zip
 mv cmdline-tools latest
